@@ -52,7 +52,12 @@ export const Blog = () => {
 
               <h1 className="blog-title">{post.name}</h1>
               <p className="justify">{post.description}</p>
-              <a class="link link-primary" href={post.link} target="_blank">
+              <a
+                class="link link-primary"
+                href={post.link}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Read More
               </a>
             </article>

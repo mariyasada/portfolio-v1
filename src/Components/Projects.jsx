@@ -67,10 +67,16 @@ const Projects = () => {
                   class="link link-primary"
                   href={post.liveLink}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live
                 </a>
-                <a class="link link-primary" href={post.code} target="_blank">
+                <a
+                  class="link link-primary"
+                  href={post.code}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Sourcecode
                 </a>
               </div>

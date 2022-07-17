@@ -26,7 +26,11 @@ export const Home = () => {
       <div className="footer-heading">
         <ul className="social-links non-bullets">
           <li className="flex-item">
-            <a href="https://github.com/mariyasada" target="_blank">
+            <a
+              href="https://github.com/mariyasada"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="icon-color">
                 <BsGithub title="Github" />
               </span>
@@ -34,7 +38,11 @@ export const Home = () => {
           </li>
 
           <li className="flex-item">
-            <a href="https://twitter.com/sada_mariya" target="_blank">
+            <a
+              href="https://twitter.com/sada_mariya"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="icon-color">
                 <BsTwitter title="Twitter" />
               </span>
@@ -45,6 +53,7 @@ export const Home = () => {
             <a
               href="https://www.linkedin.com/in/mariya-sada-1b6443139"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="icon-color">
                 <BsLinkedin title="LinkedIn" />
@@ -52,7 +61,11 @@ export const Home = () => {
             </a>
           </li>
           <li className="flex-item">
-            <a href="https://mariyasada.hashnode.dev/" target="_blank">
+            <a
+              href="https://mariyasada.hashnode.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="icon-color">
                 <SiHashnode title="LinkedIn" />
               </span>
