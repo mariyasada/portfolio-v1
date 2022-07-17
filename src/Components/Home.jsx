@@ -8,6 +8,7 @@ export const Home = () => {
       <header className="hero">
         <img
           className="hero-img"
+          alt="person's-img"
           src="https://ik.imagekit.io/qrhnvir8bf0/1658076097232_irsA_XGCq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658076158616"
         />
 
